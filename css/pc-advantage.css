@@ -1,0 +1,142 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #004aad;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0.5em 0;
+}
+
+header {
+    background-color: #003080;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    max-width: 900px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 220px;
+}
+
+ul li a:hover {
+    color: #00ff88;
+}
+
+.nav-image {
+    width: 200px;
+    height: 52px;
+    object-fit: contain;
+}
+
+nav#navbar ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #222;
+    color: #ffffff;
+}
+
+.footer-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#social-media h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#social-media ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+#social-media ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.logo {
+    height: 125px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.product-image {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
